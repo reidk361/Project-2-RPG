@@ -1,6 +1,7 @@
 
 //AG Code
 
+const e = require("express");
 const inquirer = require("inquirer");
 
 //5 People Questions
@@ -17,6 +18,14 @@ fiveOne = () => {
         },
     ])
 }
+
+/*if ([0]) {
+    console.log ("Good choice, you should arrive in Oregon before winter.");
+} else if ([1]) {
+    console.log ("Not a terrible choice, you will have a hot first couple months and then a lot of rain.");
+} else ([2]) {
+    console.log ("unwise, your odds of dying are much higher due to your poor choice.");
+};*/
 //point order -0, -2.5, -5 
 
 fiveTwo = () => {
@@ -266,7 +275,7 @@ fiveTwenty = () => {
 }
 //point order -0, -5, -2.5
 
-fiveTwentyone = () => {
+fiveTwentyOne = () => {
     console.log("Question 5.21");
     inquirer.prompt([
         {
@@ -279,7 +288,7 @@ fiveTwentyone = () => {
 }
 //point order -5, -0, -2.5
 
-fiveTwentytwo = () => {
+fiveTwentyTwo = () => {
     console.log("Question 5.22");
     inquirer.prompt([
         {
@@ -292,4 +301,4 @@ fiveTwentytwo = () => {
 }
 //point order -0, -2.5, -5
 
-module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentytwo};
+module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentyOne, fiveTwentyTwo};
