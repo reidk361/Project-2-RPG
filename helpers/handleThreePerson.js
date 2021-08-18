@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-threeOne = () => {
+function threeOne () {
     console.log("Question 3.01");
     inquirer.prompt([
         {
@@ -13,7 +13,7 @@ threeOne = () => {
 }
 //point order -0, -2.5, -5 
 
-threeTwo = () => {
+function threeTwo () {
     console.log("Question 3.02");
     inquirer.prompt([
         {
@@ -26,7 +26,7 @@ threeTwo = () => {
 }
 //point order -0, -5, -2.5 
 
-threeThree = () => {
+function threeThree () {
     console.log("Question 3.03");
     inquirer.prompt([
         {
@@ -39,7 +39,7 @@ threeThree = () => {
 }
 //point order -5, -2.5, -0 
 
-threeFour = () => {
+function threeFour () {
     console.log("Question 3.04");
     inquirer.prompt([
         {
@@ -52,7 +52,7 @@ threeFour = () => {
 }
 //point order -2.5, -0, -2.5 
 
-threeFive = () => {
+function threeFive () {
     console.log("Question 3.05");
     inquirer.prompt([
         {
@@ -65,7 +65,7 @@ threeFive = () => {
 }
 //point order -0, -5, -2.5 
 
-threeSix = () => {
+function threeSix () {
     console.log("Question 3.06");
     inquirer.prompt([
         {
@@ -78,7 +78,7 @@ threeSix = () => {
 }
 //point order -2.5, -5, -0 
 
-threeSeven = () => {
+function threeSeven () {
     console.log("Question 3.07");
     inquirer.prompt([
         {
@@ -91,7 +91,7 @@ threeSeven = () => {
 }
 //point order -0, -2.5, -5 
 
-threeEight = () => {
+function threeEight () {
     console.log("Question 3.08");
     inquirer.prompt([
         {
@@ -104,7 +104,7 @@ threeEight = () => {
 }
 //point order -0, -2.5, -5 
 
-threeNine = () => {
+function threeNine () {
     console.log("Question 3.09");
     inquirer.prompt([
         {
@@ -117,7 +117,7 @@ threeNine = () => {
 }
 //point order -0, -2.5, -5 
 
-threeTen = () => {
+function threeTen () {
     console.log("Question 3.10");
     inquirer.prompt([
         {
@@ -130,7 +130,7 @@ threeTen = () => {
 }
 //point order -5, -0, -2.5 
 
-threeEleven = () => {
+function threeEleven () {
     console.log("Question 3.11");
     inquirer.prompt([
         {
@@ -143,7 +143,7 @@ threeEleven = () => {
 }
 //point order -5, -0, -2.5 
 
-threeTwelve = () => {
+function threeTwelve () {
     console.log("Question 3.12");
     inquirer.prompt([
         {
@@ -156,7 +156,7 @@ threeTwelve = () => {
 }
 //point order -2.5, -0, -5 
 
-threeThirteen = () => {
+function threeThirteen () {
     console.log("Question 3.13");
     inquirer.prompt([
         {
@@ -169,7 +169,7 @@ threeThirteen = () => {
 }
 //point order -2.5, -0, -5 
 
-threeFourteen = () => {
+function threeFourteen () {
     console.log("Question 3.14");
     inquirer.prompt([
         {
