@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-oneOne = () => {
+function oneOne () {
     console.log("Question 1.01");
     inquirer.prompt([
         {
@@ -13,7 +13,7 @@ oneOne = () => {
 }
 //point order -5, -2.5, -0 
 
-oneTwo = () => {
+function oneTwo () {
     console.log("Question 1.02");
     inquirer.prompt([
         {
@@ -26,7 +26,7 @@ oneTwo = () => {
 }
 //point order -0, -2.5, -5
 
-oneThree = () => {
+function oneThree () { 
     console.log("Question 1.03");
     inquirer.prompt([
         {
@@ -39,7 +39,7 @@ oneThree = () => {
 }
 //point order -0, -2.5, -5
 
-oneFour = () => {
+function oneFour () {
     console.log("Question 1.04");
     inquirer.prompt([
         {
@@ -52,7 +52,7 @@ oneFour = () => {
 }
 //point order -0, -2.5, -5
 
-oneFive = () => {
+function oneFive () {
     console.log("Question 1.05");
     inquirer.prompt([
         {
@@ -65,7 +65,7 @@ oneFive = () => {
 }
 //point order -5, -0, -2.5
 
-oneSix = () => {
+function oneSix () {
     console.log("Question 1.06");
     inquirer.prompt([
         {
