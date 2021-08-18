@@ -1,13 +1,11 @@
-
-//AG Code
+//5 People Questions
 
 const e = require("express");
 const inquirer = require("inquirer");
 
-//5 People Questions
 
 
-fiveOne = () => {
+function fiveOne () {
     console.log("Question 5.01");
     inquirer.prompt([
         {
@@ -19,16 +17,7 @@ fiveOne = () => {
     ])
 }
 
-/*if ([0]) {
-    console.log ("Good choice, you should arrive in Oregon before winter.");
-} else if ([1]) {
-    console.log ("Not a terrible choice, you will have a hot first couple months and then a lot of rain.");
-} else ([2]) {
-    console.log ("unwise, your odds of dying are much higher due to your poor choice.");
-};*/
-//point order -0, -2.5, -5 
-
-fiveTwo = () => {
+function fiveTwo () {
     console.log("Question 5.02");
     inquirer.prompt([
         {
@@ -41,7 +30,7 @@ fiveTwo = () => {
 }
 //point order -5, -2.5, -0
 
-fiveThree = () => {
+function fiveThree () {
     console.log("Question 5.03");
     inquirer.prompt([
         {
@@ -54,7 +43,7 @@ fiveThree = () => {
 }
 //point order -5, -0, -2.5
 
-fiveFour = () => {
+function fiveFour () {
     console.log("Question 5.04");
     inquirer.prompt([
         {
@@ -67,7 +56,7 @@ fiveFour = () => {
 }
 //point order -5, -2.5, -0
 
-fiveFive = () => {
+function fiveFive () {
     console.log("Question 5.05");
     inquirer.prompt([
         {
@@ -80,7 +69,7 @@ fiveFive = () => {
 }
 //point order -5, -2.5, -0
 
-fiveSix = () => {
+function fiveSix () {
     console.log("Question 5.06");
     inquirer.prompt([
         {
@@ -93,7 +82,7 @@ fiveSix = () => {
 }
 //point order -5, -0, -2.5
 
-fiveSeven = () => {
+function fiveSeven () {
     console.log("Question 5.07");
     inquirer.prompt([
         {
@@ -106,7 +95,7 @@ fiveSeven = () => {
 }
 //point order -0, -5, -2.5
 
-fiveEight = () => {
+function fiveEight () {
     console.log("Question 5.08");
     inquirer.prompt([
         {
@@ -119,7 +108,7 @@ fiveEight = () => {
 }
 //point order -0, -5, -2.5
 
-fiveNine = () => {
+function fiveNine () {
     console.log("Question 5.09");
     inquirer.prompt([
         {
@@ -132,7 +121,7 @@ fiveNine = () => {
 }
 //point order -5, -0, -2.5
 
-fiveTen = () => {
+function fiveTen () {
     console.log("Question 5.10");
     inquirer.prompt([
         {
@@ -145,7 +134,7 @@ fiveTen = () => {
 }
 //point order -2.5, -5, -0
 
-fiveEleven = () => {
+function fiveEleven () {
     console.log("Question 5.11");
     inquirer.prompt([
         {
@@ -158,7 +147,7 @@ fiveEleven = () => {
 }
 //point order -2.5, -0, -5
 
-fiveTwelve = () => {
+function fiveTwelve () {
     console.log("Question 5.12");
     inquirer.prompt([
         {
@@ -171,7 +160,7 @@ fiveTwelve = () => {
 }
 //point order -5, -2.5, -0
 
-fiveThirteen = () => {
+function fiveThirteen () {
     console.log("Question 5.13");
     inquirer.prompt([
         {
@@ -184,7 +173,7 @@ fiveThirteen = () => {
 }
 //point order -5, -2.5, -0
 
-fiveFourteen = () => {
+function fiveFourteen () {
     console.log("Question 5.14");
     inquirer.prompt([
         {
@@ -197,7 +186,7 @@ fiveFourteen = () => {
 }
 //point order -5, -2.5, -0
 
-fiveFifteen = () => {
+function fiveFifteen () {
     console.log("Question 5.15");
     inquirer.prompt([
         {
@@ -210,7 +199,7 @@ fiveFifteen = () => {
 }
 //point order -0, -2.5, -5
 
-fiveSixteen = () => {
+function fiveSixteen () {
     console.log("Question 5.16");
     inquirer.prompt([
         {
@@ -223,7 +212,7 @@ fiveSixteen = () => {
 }
 //point order -5, -0, -2.5
 
-fiveSeventeen = () => {
+function fiveSeventeen () {
     console.log("Question 5.17");
     inquirer.prompt([
         {
@@ -236,7 +225,7 @@ fiveSeventeen = () => {
 }
 //point order -0, -5, -2.5
 
-fiveEighteen = () => {
+function fiveEighteen () {
     console.log("Question 5.18");
     inquirer.prompt([
         {
@@ -249,7 +238,7 @@ fiveEighteen = () => {
 }
 //point order -2.5, -5, -0
 
-fiveNineteen = () => {
+function fiveNineteen () {
     console.log("Question 5.19");
     inquirer.prompt([
         {
@@ -262,7 +251,7 @@ fiveNineteen = () => {
 }
 //point order -0, -5, -2.5
 
-fiveTwenty = () => {
+function fiveTwenty () {
     console.log("Question 5.20");
     inquirer.prompt([
         {
@@ -275,7 +264,7 @@ fiveTwenty = () => {
 }
 //point order -0, -5, -2.5
 
-fiveTwentyOne = () => {
+function fiveTwentyOne () {
     console.log("Question 5.21");
     inquirer.prompt([
         {
@@ -288,7 +277,7 @@ fiveTwentyOne = () => {
 }
 //point order -5, -0, -2.5
 
-fiveTwentyTwo = () => {
+function fiveTwentyTwo () {
     console.log("Question 5.22");
     inquirer.prompt([
         {
@@ -301,4 +290,4 @@ fiveTwentyTwo = () => {
 }
 //point order -0, -2.5, -5
 
-module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentyOne, fiveTwentyTwo};
+module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen,fiveFourteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentyOne, fiveTwentyTwo};
