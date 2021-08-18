@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 
-twoOne = () => {
+function twoOne () {
     console.log("Question 2.01");
     inquirer.prompt([
         {
@@ -13,7 +13,7 @@ twoOne = () => {
 }
 //point order -5, -2.5, -0 
 
-twoTwo = () => {
+function twoTwo () {
     console.log("Question 2.02");
     inquirer.prompt([
         {
@@ -26,7 +26,7 @@ twoTwo = () => {
 }
 //point order -2.5, -0, -5 
 
-twoThree = () => {
+function twoThree () {
     console.log("Question 2.03");
     inquirer.prompt([
         {
@@ -39,7 +39,7 @@ twoThree = () => {
 }
 //point order -2.5, -0, -5 
 
-twoFour = () => {
+function twoFour () {
     console.log("Question 2.04");
     inquirer.prompt([
         {
@@ -52,7 +52,7 @@ twoFour = () => {
 }
 //point order -5, -0, -2.5 
 
-twoFive = () => {
+function twoFive () {
     console.log("Question 2.05");
     inquirer.prompt([
         {
@@ -65,7 +65,7 @@ twoFive = () => {
 }
 //point order -0, -5, -2.5 
 
-twoSix = () => {
+function twoSix () {
     console.log("Question 2.06");
     inquirer.prompt([
         {
@@ -78,7 +78,7 @@ twoSix = () => {
 }
 //point order -2.5, -0, -5 
 
-twoSeven = () => {
+function twoSeven () {
     console.log("Question 2.07");
     inquirer.prompt([
         {
@@ -91,7 +91,7 @@ twoSeven = () => {
 }
 //point order -5, -0, -2.5 
 
-twoEight = () => {
+function twoEight () {
     console.log("Question 2.08");
     inquirer.prompt([
         {
@@ -104,7 +104,7 @@ twoEight = () => {
 }
 //point order -5, -0, -2.5 
 
-twoNine = () => {
+function twoNine () {
     console.log("Question 2.09");
     inquirer.prompt([
         {
@@ -117,7 +117,7 @@ twoNine = () => {
 }
 //point order -5, -0, -2.5 
 
-twoTen = () => {
+function twoTen () {
     console.log("Question 2.10");
     inquirer.prompt([
         {
