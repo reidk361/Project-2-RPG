@@ -1,12 +1,11 @@
-
-//AG Code
-
-const inquirer = require("inquirer");
-
 //5 People Questions
 
+const e = require("express");
+const inquirer = require("inquirer");
 
-fiveOne = () => {
+
+
+function fiveOne () {
     console.log("Question 5.01");
     inquirer.prompt([
         {
@@ -17,6 +16,8 @@ fiveOne = () => {
         },
     ])
 }
+<<<<<<< HEAD:helpers/handleFivePerson.js
+=======
 //point order -0, -2.5, -5 
 async function handleScore(){
     let score = 100;
@@ -31,8 +32,9 @@ async function handleScore(){
 
     }
 console.log(handleScore);
+>>>>>>> main:helpers/handleFivePerson2.js
 
-fiveTwo = () => {
+function fiveTwo () {
     console.log("Question 5.02");
     inquirer.prompt([
         {
@@ -45,6 +47,9 @@ fiveTwo = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveThree () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveTwoAns = await fiveTwo();
@@ -60,6 +65,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveThree = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.03");
     inquirer.prompt([
         {
@@ -72,6 +78,9 @@ fiveThree = () => {
 }
 //point order -5, -0, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveFour () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveThreeAns = await fiveThree();
@@ -87,6 +96,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveFour = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.04");
     inquirer.prompt([
         {
@@ -99,6 +109,9 @@ fiveFour = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveFive () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveFourAns = await fiveFour();
@@ -114,6 +127,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveFive = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.05");
     inquirer.prompt([
         {
@@ -126,6 +140,9 @@ fiveFive = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveSix () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveFiveAns = await fiveFive();
@@ -141,6 +158,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveSix = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.06");
     inquirer.prompt([
         {
@@ -153,6 +171,9 @@ fiveSix = () => {
 }
 //point order -5, -0, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveSeven () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveSixAns = await fiveSix();
@@ -168,6 +189,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveSeven = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.07");
     inquirer.prompt([
         {
@@ -180,6 +202,9 @@ fiveSeven = () => {
 }
 //point order -0, -5, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveEight () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveSevenAns = await fiveSeven();
@@ -195,6 +220,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveEight = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.08");
     inquirer.prompt([
         {
@@ -207,6 +233,9 @@ fiveEight = () => {
 }
 //point order -0, -5, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveNine () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveEightAns = await fiveEight();
@@ -222,6 +251,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveNine = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.09");
     inquirer.prompt([
         {
@@ -234,6 +264,9 @@ fiveNine = () => {
 }
 //point order -5, -0, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveTen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveNineAns = await fiveNine();
@@ -249,6 +282,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveTen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.10");
     inquirer.prompt([
         {
@@ -261,6 +295,9 @@ fiveTen = () => {
 }
 //point order -2.5, -5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveEleven () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveTenAns = await fiveTen();
@@ -276,6 +313,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveEleven = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.11");
     inquirer.prompt([
         {
@@ -288,6 +326,9 @@ fiveEleven = () => {
 }
 //point order -2.5, -0, -5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveTwelve () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveElevenAns = await fiveEleven();
@@ -303,6 +344,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveTwelve = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.12");
     inquirer.prompt([
         {
@@ -315,6 +357,9 @@ fiveTwelve = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveThirteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveTwelveAns = await fiveTwelve();
@@ -330,6 +375,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveThirteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.13");
     inquirer.prompt([
         {
@@ -342,6 +388,9 @@ fiveThirteen = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveFourteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveThirteenAns = await fiveThirteen();
@@ -357,6 +406,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveFourteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.14");
     inquirer.prompt([
         {
@@ -369,6 +419,9 @@ fiveFourteen = () => {
 }
 //point order -5, -2.5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveFifteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveFourteenAns = await fiveFourteen();
@@ -384,6 +437,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveFifteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.15");
     inquirer.prompt([
         {
@@ -396,6 +450,9 @@ fiveFifteen = () => {
 }
 //point order -0, -2.5, -5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveSixteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveFifteenAns = await fiveFifteen();
@@ -411,6 +468,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveSixteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.16");
     inquirer.prompt([
         {
@@ -423,6 +481,9 @@ fiveSixteen = () => {
 }
 //point order -5, -0, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveSeventeen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveSixteenAns = await fiveSixteen();
@@ -438,6 +499,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveSeventeen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.17");
     inquirer.prompt([
         {
@@ -450,6 +512,9 @@ fiveSeventeen = () => {
 }
 //point order -0, -5, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveEighteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveSeventeenAns = await fiveSeventeen();
@@ -465,6 +530,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveEighteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.18");
     inquirer.prompt([
         {
@@ -477,6 +543,9 @@ fiveEighteen = () => {
 }
 //point order -2.5, -5, -0
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveNineteen () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveEighteenAns = await fiveEighteen();
@@ -492,6 +561,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveNineteen = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.19");
     inquirer.prompt([
         {
@@ -504,6 +574,9 @@ fiveNineteen = () => {
 }
 //point order -0, -5, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveTwenty () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveNineteenAns = await fiveNineteen();
@@ -519,6 +592,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveTwenty = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.20");
     inquirer.prompt([
         {
@@ -531,6 +605,9 @@ fiveTwenty = () => {
 }
 //point order -0, -5, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveTwentyOne () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveTwentyAns = await fiveTwenty();
@@ -546,6 +623,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveTwentyone = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.21");
     inquirer.prompt([
         {
@@ -558,6 +636,9 @@ fiveTwentyone = () => {
 }
 //point order -5, -0, -2.5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+function fiveTwentyTwo () {
+=======
 async function handleScore(){
     let score = 100;
     let fiveTwentyoneAns = await fiveTwentyone();
@@ -573,6 +654,7 @@ async function handleScore(){
 console.log(handleScore);
 
 fiveTwentytwo = () => {
+>>>>>>> main:helpers/handleFivePerson2.js
     console.log("Question 5.22");
     inquirer.prompt([
         {
@@ -585,6 +667,9 @@ fiveTwentytwo = () => {
 }
 //point order -0, -2.5, -5
 
+<<<<<<< HEAD:helpers/handleFivePerson.js
+module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen,fiveFourteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentyOne, fiveTwentyTwo};
+=======
 async function handleScore(){
     let score = 100;
     let fiveTwentytwoAns = await fiveTwentytwo();
@@ -600,3 +685,4 @@ async function handleScore(){
 console.log(handleScore);
 
 module.exports = {fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine, fiveTen, fiveEleven, fiveTwelve, fiveThirteen, fiveFifteen, fiveSixteen, fiveSeventeen, fiveEighteen, fiveNineteen, fiveTwenty, fiveTwentytwo};
+>>>>>>> main:helpers/handleFivePerson2.js

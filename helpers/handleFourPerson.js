@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 
-fourOne = () => {
+function fourOne () {
     console.log("Question 4.01");
     inquirer.prompt([
         {
@@ -15,7 +15,7 @@ fourOne = () => {
 }
 //point order -0, -5, -2.5 
 
-fourTwo = () => {
+function fourTwo () {
     console.log("Question 4.02");
     inquirer.prompt([
         {
@@ -28,7 +28,7 @@ fourTwo = () => {
 }
 //point order -2.5, -5, -0 
 
-fourThree = () => {
+function fourThree () {
     console.log("Question 4.03");
     inquirer.prompt([
         {
@@ -41,7 +41,7 @@ fourThree = () => {
 }
 //point order -0, -5, -2.5
 
-fourFour = () => {
+function fourFour () {
     console.log("Question 4.04");
     inquirer.prompt([
         {
@@ -54,7 +54,7 @@ fourFour = () => {
 }
 //point order -2.5, -0, -5 
 
-fourFive = () => {
+function fourFive () {
     console.log("Question 4.05");
     inquirer.prompt([
         {
@@ -67,7 +67,7 @@ fourFive = () => {
 }
 //point order -5, -2.5, -0 
 
-fourSix = () => {
+function fourSix () {
     console.log("Question 4.06");
     inquirer.prompt([
         {
@@ -80,7 +80,7 @@ fourSix = () => {
 }
 //point order -5, -0, -2.5 
 
-fourSeven = () => {
+function fourSeven () {
     console.log("Question 4.07");
     inquirer.prompt([
         {
@@ -93,7 +93,7 @@ fourSeven = () => {
 }
 //point order -0, -2.5, -5 
 
-fourEight = () => {
+function fourEight () {
     console.log("Question 4.08");
     inquirer.prompt([
         {
@@ -106,7 +106,7 @@ fourEight = () => {
 }
 //point order -2.5, -5, -0 
 
-fourNine = () => {
+function fourNine () {
     console.log("Question 4.09");
     inquirer.prompt([
         {
@@ -119,7 +119,7 @@ fourNine = () => {
 }
 //point order -0, -5, -2.5 
 
-fourTen = () => {
+function fourTen () {
     console.log("Question 4.10");
     inquirer.prompt([
         {
@@ -132,7 +132,7 @@ fourTen = () => {
 }
 //point order -0, -5, -2.5 
 
-fourEleven = () => {
+function fourEleven () {
     console.log("Question 4.11");
     inquirer.prompt([
         {
@@ -145,7 +145,7 @@ fourEleven = () => {
 }
 //point order -2.5, -0, -5 
 
-fourTwelve  = () => {
+function fourTwelve () {
     console.log("Question 4.12");
     inquirer.prompt([
         {
@@ -158,7 +158,7 @@ fourTwelve  = () => {
 }
 //point order -2.5, -0, -5 
 
-fourThirteen  = () => {
+function fourThirteen () {
     console.log("Question 4.13");
     inquirer.prompt([
         {
@@ -171,7 +171,7 @@ fourThirteen  = () => {
 }
 //point order -0, -2.5, -5 
 
-fourFourteen  = () => {
+function fourFourteen () {
     console.log("Question 4.14");
     inquirer.prompt([
         {
@@ -184,7 +184,7 @@ fourFourteen  = () => {
 }
 //point order -2.5, -5, -0 
 
-fourFifteen  = () => {
+function fourFifteen () {
     console.log("Question 4.15");
     inquirer.prompt([
         {
@@ -197,7 +197,7 @@ fourFifteen  = () => {
 }
 //point order -5, -0, -2.5 
 
-fourSixteen  = () => {
+function fourSixteen () {
     console.log("Question 4.16");
     inquirer.prompt([
         {
@@ -210,7 +210,7 @@ fourSixteen  = () => {
 }
 //point order -0, -2.5, -5 
 
-fourSeventeen  = () => {
+function fourSeventeen () {
     console.log("Question 4.17");
     inquirer.prompt([
         {
@@ -223,7 +223,7 @@ fourSeventeen  = () => {
 }
 //point order -0, -5, -2.5 
 
-fourEighteen  = () => {
+function fourEighteen () {
     console.log("Question 4.18");
     inquirer.prompt([
         {
@@ -236,4 +236,4 @@ fourEighteen  = () => {
 }
 //point order -2.5, -0, -5 
 
-module.exports = {fourOne, fourTwo, fourThree, fourFour, fourSix, fourSeven, fourEight, fourNine, fourTen, fourEleven, fourTwelve, fourThirteen, fourFourteen, fourFifteen, fourSixteen, fourSeventeen, fourEighteen};
+module.exports = {fourOne, fourTwo, fourThree, fourFour, fourFive, fourSix, fourSeven, fourEight, fourNine, fourTen, fourEleven, fourTwelve, fourThirteen, fourFourteen, fourFifteen, fourSixteen, fourSeventeen, fourEighteen};
