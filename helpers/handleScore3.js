@@ -1,0 +1,16 @@
+const {
+    threeOne,
+    threeTwo,
+    threeThree,
+    threeFour,
+    threeFive,
+    threeSix,
+    threeSeven,
+    threeEight,
+    threeNine,
+    threeTen,
+    threeEleven,
+    threeTwelve,
+    threeThirteen,
+    threeFourteen,
+  } = require("./handleThreePerson");

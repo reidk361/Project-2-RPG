@@ -23,11 +23,29 @@ const {
     handleScore22
 } = require("./handleScore5");
 
-let score = 100;
-
 async function handleQuestion(){
-    await handleScore1;
-    await handleScore2;
+    await handleScore1();
+    await handleScore2();
+    await handleScore3();
+    await handleScore4();
+    await handleScore5();
+    await handleScore6();
+    await handleScore7();
+    await handleScore8();
+    await handleScore9();
+    await handleScore10();
+    await handleScore11();
+    await handleScore12();
+    await handleScore13();
+    await handleScore14();
+    await handleScore15();
+    await handleScore16();
+    await handleScore17();
+    await handleScore18();
+    await handleScore19();
+    await handleScore20();
+    await handleScore21();
+    await handleScore22();
 }
 
 handleQuestion();
