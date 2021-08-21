@@ -44,6 +44,9 @@
     text-align: center;
     margin: 5px;
     
-    
-   
+}
+
+#button:active {
+    color: #49fb35;
+    background-color: black;
 }
