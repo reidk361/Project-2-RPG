@@ -17,10 +17,6 @@
 
 <body id="body">
 
-    <audio id="song">
-        <source src="./038 Oh Susanna (Fort).mp3" type="audio/mp3">
-    </audio>
-
     <img id="wagonImage"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Yx5KnHCBBfm-fnNv4TEtwLIykFD25D6KUw&usqp=CAU"
         alt="text">
@@ -34,11 +30,16 @@
     <h2 class="gameInfo"> -You start will 5 party members including your self. You will lose a party member after -20
         points.</h2>
     <h2 class="gameInfo"> -Good luck!</h2>
+
     <button id="button">Start</button>
-    
+
+    <audio id="song">
+        <source src="./song.mp3" type="audio/wav">
+    </audio>
+
     <script>
-        const song = document.getElementById("song")
-        const button = document.getElementById("song")
+        const song = document.getElementById("song");
+        const button = document.getElementById("button")
         button.onclick = function() {
             song.play();
         }
@@ -51,7 +52,7 @@
                     '. Wellcome to this terminal.');
             }
         }, {
-            greetings: 'What month do you leave Oregon?',
+            greetings: 'What month do you leave for Oregon?',
 
 
         });
