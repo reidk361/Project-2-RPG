@@ -20,7 +20,7 @@ function fiveOne () {
 
 
 function fiveTwo () {
-    console.log("Question 502");
+    console.log("Question 5.02");
     return inquirer.prompt([
         {
             name: "two",
