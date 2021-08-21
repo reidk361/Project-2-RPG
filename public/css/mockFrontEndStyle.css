@@ -2,6 +2,7 @@
     text-align: center;
     position: relative;
     padding-left: 42%;
+    margin: 0px;
 }
 #body{
     background-color: black;
@@ -9,9 +10,9 @@
 #headerOne {
     text-align: center;
     text-decoration: underline;
-    font-weight: 300;
-    color: rgb(161, 247, 33);
-    padding: 3%;
+    font-weight: 100;
+    color: #49fb35;
+    padding: 1%;
 
 }
 
@@ -20,14 +21,29 @@
 
     text-shadow: black;
     font-weight: 100;
-    font-size: 20px;
-    color: greenyellow;
+    font-size: 15px;
+    color: #49fb35;
     padding-left: 2%;
     border: 1px solid;
     border-radius: 5ch;
-    padding: 1ch;
+    padding: 10px;
+    margin: 10px;
+   
+    
    
 }
 #terminal {
     size: 20px;
+    padding-left: 42%;
+}
+
+#button {
+    color: black;
+    background-color:#49fb35;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    
+    
+   
 }

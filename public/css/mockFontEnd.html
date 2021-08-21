@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,53 @@
     <link rel="stylesheet" href="./mockFrontEndStyle.css">
     <link rel="stylesheet" href="./reset.css">
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
 
 </head>
-<body id="body">
-    <img id= "wagonImage"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Yx5KnHCBBfm-fnNv4TEtwLIykFD25D6KUw&usqp=CAU" alt="text">
-    <h1 id="headerOne">The Oregon Path</h1>
-    
-<h2 class="gameInfo"> -You have a long journey ahead. The choices you make along the way will determine if you and your party make it.</h2>
-<h2 class="gameInfo"> -You start will 100 points </h2>
-<h2 class="gameInfo"> -Each question will have 3 choices.</h2>
-<h2 class="gameInfo"> -The best answer will deduct 0 points. The second best answer will deduct 2.5 points. The worst answer will deduct 5 points.</h2>
-<h2 class="gameInfo"> -You start will 5 party members including your self. You will lose a party member after -20 points.</h2>
-<h2 class="gameInfo"> -Good luck!</h2>
 
-<script id="terminal">
-    $('body').terminal({
-        hello: function(what) {
-            this.echo('Hello, ' + what +
-                      '. Wellcome to this terminal.');
+<body id="body">
+
+    <audio id="song">
+        <source src="./038 Oh Susanna (Fort).mp3" type="audio/mp3">
+    </audio>
+
+    <img id="wagonImage"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Yx5KnHCBBfm-fnNv4TEtwLIykFD25D6KUw&usqp=CAU"
+        alt="text">
+    <h1 id="headerOne">The Oregon Path</h1>
+    <h2 class="gameInfo"> -You have a long journey ahead. The choices you make along the way will determine if you and
+        your party make it.</h2>
+    <h2 class="gameInfo"> -You start will 100 points </h2>
+    <h2 class="gameInfo"> -Each question will have 3 choices.</h2>
+    <h2 class="gameInfo"> -The best answer will deduct 0 points. The second best answer will deduct 2.5 points. The
+        worst answer will deduct 5 points.</h2>
+    <h2 class="gameInfo"> -You start will 5 party members including your self. You will lose a party member after -20
+        points.</h2>
+    <h2 class="gameInfo"> -Good luck!</h2>
+    <button id="button">Start</button>
+    
+    <script>
+        const song = document.getElementById("song")
+        const button = document.getElementById("song")
+        button.onclick = function() {
+            song.play();
         }
-    }, {
-        greetings: 'What month do you leave Oregon?',
-        
-        
-    });
+    </script>
+
+    <script id="terminal">
+        $('body').terminal({
+            hello: function (what) {
+                this.echo('Hello, ' + what +
+                    '. Wellcome to this terminal.');
+            }
+        }, {
+            greetings: 'What month do you leave Oregon?',
+
+
+        });
     </script>
 </body>
+
 </html>
