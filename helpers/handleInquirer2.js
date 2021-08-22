@@ -403,11 +403,11 @@ fiveTwentytwo = () => {
 
 
 
-if (myscore>80){fivePeople }
-else if (total<80){fourPeople }
-else if (total<60){threePeople }
-else if (total<40){twoPeople }
-else if (total<20){onePeople}
+if (score>80){fivePeople }
+else if (score<80){fourPeople }
+else if (score<60){threePeople }
+else if (score<40){twoPeople }
+else if (score<20){onePeople}
 else {GameOver}
 
 

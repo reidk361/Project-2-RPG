@@ -49,3 +49,11 @@ async function handleQuestion(){
 }
 
 handleQuestion();
+
+
+if (score>=81){"./handleFivePerson" }
+else if (score<=80 && score >= 61){"./handleFourPerson" }
+else if (score<=60 && score >= 41){"./handleThreePerson" }
+else if (score<=40 && score >=21){"./handleTwoPerson" }
+else if (score<=20 && score >= 1){"./handleOnePerson"}
+else {"./GameOver"}
