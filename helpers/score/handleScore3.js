@@ -17,12 +17,7 @@ const {
 
 const { gameWin, gameLose } = require("../handleGameOver");
 
-let score = 40;
-
-function handleDeath(score) {
-  if (score < 81 && score > 40) {
-  }
-}
+let score = 60;
 
 async function handleScore1() {
   let threeOneAns = await threeOne();

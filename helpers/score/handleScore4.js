@@ -21,7 +21,7 @@ const {
 
 const { gameWin, gameLose } = require("../handleGameOver");
 
-let score = 60;
+let score = 80;
 
 async function handleScore1() {
   let fourOneAns = await fourOne();

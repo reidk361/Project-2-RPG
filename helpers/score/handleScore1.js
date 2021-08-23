@@ -17,7 +17,9 @@ async function handleScore1() {
     score = score - 5;
   } else if (oneOneAns.one === "Do random acts of kindness for your self") {
     score = score - 2.5;
-  } else if (oneOneAns.one === "Remind your self that Oregon is worth dying for") {
+  } else if (
+    oneOneAns.one === "Remind your self that Oregon is worth dying for"
+  ) {
     score = score;
   }
   console.info(score);
@@ -87,40 +89,40 @@ async function handleScore6() {
 
 async function handleQuestion1() {
   while (score > 0) {
-  await handleScore1();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  await handleScore2();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  await handleScore3();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  await handleScore4();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  await handleScore5();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  await handleScore6();
-  if (score <= 0) {
-    gameLose();
-    break;
-  }
-  if (score > 0) {
-    gameWin();
-    break;
-  }
+    await handleScore1();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    await handleScore2();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    await handleScore3();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    await handleScore4();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    await handleScore5();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    await handleScore6();
+    if (score <= 0) {
+      gameLose();
+      break;
+    }
+    if (score > 0) {
+      gameWin();
+      break;
+    }
   }
 }
 
