@@ -1,10 +1,26 @@
+const figlet = require("figlet");
+
 
 function gameWin(){
-    console.log("Congrats")
+    figlet('Congrats!', function(err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        console.log(data)
+    });
 }
 
 function gameLose(){
-    console.log("All of your family died of dysentery. Are you proud?")
+    figlet('You Died of Dysentery', function(err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        console.log(data)
+    });
 }
 
 module.exports = {

@@ -1,6 +1,5 @@
 //5 People Questions
 
-const e = require("express");
 const inquirer = require("inquirer");
 
 
