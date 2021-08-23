@@ -178,7 +178,7 @@ function fourFourteen () {
             name: "fourteen",
             type: "list",
             message: "You are a bad hunter and came back with nothing. How do you keep the morale up?",
-            choices: ['Tell a funny story', 'Tell your family you miss 100% of the shots you don’t take', 'Remind everyone that tomorrow is a new day',]
+            choices: ['Tell a funny story', 'Tell your family you miss 100% of the shots you don’t take', 'c',]
         },
     ])
 }

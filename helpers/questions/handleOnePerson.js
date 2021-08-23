@@ -34,7 +34,7 @@ function oneThree () {
         {
             name: "three",
             type: "list",
-            message: "Your tranpertation is no longer working. You have to travel my foot now, what will help your walk?",
+            message: "Your transportation is no longer working. You have to travel my foot now, what will help your walk?",
             choices: ['A walking stick', 'Stopping to smell the roses', 'A spring in your step',]
         },
     ])
