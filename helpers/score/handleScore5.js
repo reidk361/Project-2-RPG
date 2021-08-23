@@ -21,7 +21,9 @@ const {
   fiveTwenty,
   fiveTwentyOne,
   fiveTwentyTwo,
-} = require("./handleFivePerson");
+} = require("../questions/handleFivePerson");
+
+const { gameWin, gameLose } = require("../handleGameOver");
 
 let score = 100;
 
@@ -31,9 +33,9 @@ async function handleScore1() {
   if (fiveOneAns.one === "May") {
     score = score;
   } else if (fiveOneAns.one === "July") {
-    score = score-2.5;
+    score = score - 2.5;
   } else if (fiveOneAns.one === "December") {
-    score = score-5;
+    score = score - 5;
   }
   console.info(score);
 }
@@ -128,7 +130,8 @@ async function handleScore8() {
   } else if (fiveEightAns.eight === "Filter the water through a sock") {
     score = score - 5;
   } else if (
-    fiveEightAns.eight === "Have someone else drink it first to see if they get sick"
+    fiveEightAns.eight ===
+    "Have someone else drink it first to see if they get sick"
   ) {
     score = score - 2.5;
   }
@@ -199,9 +202,13 @@ async function handleScore14() {
   let fiveFourteenAns = await fiveFourteen();
   if (fiveFourteenAns.fourteen === "When the moon is full") {
     score = score - 5;
-  } else if (fiveFourteenAns.fourteen === "When the moon rises after midnight") {
+  } else if (
+    fiveFourteenAns.fourteen === "When the moon rises after midnight"
+  ) {
     score = score - 2.5;
-  } else if (fiveFourteenAns.fourteen === "When the moon rises before sunset.") {
+  } else if (
+    fiveFourteenAns.fourteen === "When the moon rises before sunset."
+  ) {
     score = score;
   }
   console.info(score);
@@ -303,27 +310,103 @@ async function handleScore22() {
   console.info(score);
 }
 
-module.exports = {
-    handleScore1,
-    handleScore2,
-    handleScore3,
-    handleScore4,
-    handleScore5,
-    handleScore6,
-    handleScore7, 
-    handleScore8,
-    handleScore9,
-    handleScore10,
-    handleScore11,
-    handleScore12,
-    handleScore13,
-    handleScore14,
-    handleScore15,
-    handleScore16,
-    handleScore17,
-    handleScore18,
-    handleScore19,
-    handleScore20,
-    handleScore21,
-    handleScore22
+async function handleQuestion5() {
+  while (score > 80) {
+    await handleScore1();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore2();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore3();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore4();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore5();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore6();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore7();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore8();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore9();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore10();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore11();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore12();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore13();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore14();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore15();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore16();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore17();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore18();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore19();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore20();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore21();
+    if (score <= 80) {
+      break;
+    }
+    await handleScore22();
+    if (score <= 80) {
+      break;
+    }
+    if (score > 80){
+      gameWin();
+      return "win";
+    }
+  }
 }
+
+module.exports = {
+  handleQuestion5,
+};
