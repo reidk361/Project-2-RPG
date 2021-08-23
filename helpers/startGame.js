@@ -4,14 +4,15 @@ const { handleQuestion3 } = require("./score/handleScore3");
 const { handleQuestion2 } = require("./score/handleScore2");
 const { handleQuestion1 } = require("./score/handleScore1");
 const figlet = require("figlet");
+const chalk = require('chalk');
 
 function rules(){
-    setTimeout(function(){console.info("You are taking a long trek to Oregon.");},2000);
-    setTimeout(function(){console.info("You and your family will be faced with much peril while traveling.");},4000);
-    setTimeout(function(){console.info("Your caravan will start off with 100 points.");},6000);
-    setTimeout(function(){console.info("When you lose 20 points, you will lose a family member.");},8000);
-    setTimeout(function(){console.info("When you reach 0 points, you lose.");},10000);
-    setTimeout(function(){console.info("Good luck! \n");},12000);
+    setTimeout(function(){console.info(chalk.green("You are taking a long trek to Oregon."));},2000);
+    setTimeout(function(){console.info(chalk.green("You and your family will be faced with much peril while traveling."));},4000);
+    setTimeout(function(){console.info(chalk.green(`Your caravan will start off with ${chalk.cyan.underline("100")} points.`));},6000);
+    setTimeout(function(){console.info(chalk.green(`For every ${chalk.yellow.underline("20")} points you lose, you will lose a family member.`));},8000);
+    setTimeout(function(){console.info(chalk.green(`When you reach ${chalk.red.underline("0")} points, you lose.`));},10000);
+    setTimeout(function(){console.info(chalk.green("Good luck! \n"));},12000);
 }
 
 function title(){
@@ -21,7 +22,7 @@ function title(){
             console.dir(err);
             return;
         }
-        console.info(data)
+        console.info(chalk.green.bold(data));
     });
 }
 

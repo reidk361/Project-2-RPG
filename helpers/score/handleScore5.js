@@ -23,7 +23,7 @@ const {
   fiveTwentyTwo,
 } = require("../questions/handleFivePerson");
 
-const { gameWin, gameLose } = require("../handleGameOver");
+const { loseMembers, gameWin } = require("../handleGameOver");
 
 let score = 100;
 
@@ -314,90 +314,112 @@ async function handleQuestion5() {
   while (score > 80) {
     await handleScore1();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore2();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore3();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore4();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore5();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore6();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore7();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore8();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore9();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore10();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore11();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore12();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore13();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore14();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore15();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore16();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore17();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore18();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore19();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore20();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore21();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     await handleScore22();
     if (score <= 80) {
+      loseMembers(4);
       break;
     }
     if (score > 80){

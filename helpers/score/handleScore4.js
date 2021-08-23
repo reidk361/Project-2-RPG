@@ -19,7 +19,7 @@ const {
   fourEighteen,
 } = require("../questions/handleFourPerson");
 
-const { gameWin, gameLose } = require("../handleGameOver");
+const { loseMembers, gameWin } = require("../handleGameOver");
 
 let score = 80;
 
@@ -244,74 +244,92 @@ async function handleQuestion4() {
   while (score > 60) {
     await handleScore1();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore2();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore3();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore4();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore5();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore6();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore7();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore8();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore9();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore10();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore11();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore12();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore13();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore14();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore15();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore16();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore17();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     await handleScore18();
     if (score <= 60) {
+      loseMembers(3);
       break;
     }
     if (score > 60) {

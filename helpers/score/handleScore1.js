@@ -45,7 +45,7 @@ async function handleScore3() {
     score = score;
   } else if (oneThreeAns.three === "Stopping to smell the roses") {
     score = score - 2.5;
-  } else if (oneThreeAns.three === "A spring in your step'") {
+  } else if (oneThreeAns.three === "A spring in your step") {
     score = score - 5;
   }
   console.info(score);

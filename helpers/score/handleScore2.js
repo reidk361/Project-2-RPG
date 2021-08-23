@@ -11,7 +11,7 @@ const {
   twoTen,
 } = require("../questions/handleTwoPerson");
 
-const { gameWin, gameLose } = require("../handleGameOver");
+const { alone, gameWin } = require("../handleGameOver");
 
 let score = 40;
 
@@ -141,42 +141,52 @@ async function handleQuestion2() {
   while (score > 20) {
     await handleScore1();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore2();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore3();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore4();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore5();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore6();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore7();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore8();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore9();
     if (score <= 20) {
+      alone();
       break;
     }
     await handleScore10();
     if (score <= 20) {
+      alone();
       break;
     }
     if (score > 20) {

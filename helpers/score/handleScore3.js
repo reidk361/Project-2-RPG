@@ -15,7 +15,7 @@ const {
   threeFourteen,
 } = require("../questions/handleThreePerson");
 
-const { gameWin, gameLose } = require("../handleGameOver");
+const { loseMembers, gameWin } = require("../handleGameOver");
 
 let score = 60;
 
@@ -28,6 +28,7 @@ async function handleScore1() {
   } else if (threeOneAns.one === "Do nothing") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore2() {
@@ -39,6 +40,7 @@ async function handleScore2() {
   } else if (threeTwoAns.two === "stop, drop, and roll") {
     score = score - 2.5;
   }
+  console.info(score);
 }
 
 async function handleScore3() {
@@ -50,6 +52,7 @@ async function handleScore3() {
   } else if (threeThreeAns.three === 'Yell, "There is a snake in my boot!"') {
     score = score;
   }
+  console.info(score);
 }
 
 async function handleScore4() {
@@ -61,6 +64,7 @@ async function handleScore4() {
   } else if (threeFourAns.four === "A story for bedtime") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore5() {
@@ -72,6 +76,7 @@ async function handleScore5() {
   } else if (threeFiveAns.five === "Run away") {
     score = score - 2.5;
   }
+  console.info(score);
 }
 
 async function handleScore6() {
@@ -83,6 +88,7 @@ async function handleScore6() {
   } else if (threeSixAns.six === "Rest at the next safe spot") {
     score = score;
   }
+  console.info(score);
 }
 
 async function handleScore7() {
@@ -94,6 +100,7 @@ async function handleScore7() {
   } else if (threeSevenAns.seven === "Wait till the next one to do anything") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore8() {
@@ -105,6 +112,7 @@ async function handleScore8() {
   } else if (threeEightAns.eight === "Eat it") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore9() {
@@ -116,6 +124,7 @@ async function handleScore9() {
   } else if (threeNineAns.nine === "Beet") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore10() {
@@ -127,6 +136,7 @@ async function handleScore10() {
   } else if (threeTenAns.ten === "Oak") {
     score = score - 2.5;
   }
+  console.info(score);
 }
 
 async function handleScore11() {
@@ -138,6 +148,7 @@ async function handleScore11() {
   } else if (threeElevenAns.eleven === "Dirt") {
     score = score - 2.5;
   }
+  console.info(score);
 }
 
 async function handleScore12() {
@@ -149,6 +160,7 @@ async function handleScore12() {
   } else if (threeTwelveAns.twelve === "Let it fall out on its own") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore13() {
@@ -160,6 +172,7 @@ async function handleScore13() {
   } else if (threeThirteenAns.thirteen === "Just keep on keeping on") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleScore14() {
@@ -171,64 +184,79 @@ async function handleScore14() {
   } else if (threeFourteenAns.fourteen === "Ignore it") {
     score = score - 5;
   }
+  console.info(score);
 }
 
 async function handleQuestion3() {
   while (score > 40) {
     await handleScore1();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore2();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore3();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore4();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore5();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore6();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore7();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore8();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore9();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore10();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore11();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore12();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore13();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     await handleScore14();
     if (score <= 40) {
+      loseMembers(2);
       break;
     }
     if (score > 40) {
