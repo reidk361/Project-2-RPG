@@ -4,9 +4,9 @@ const inquirer = require("inquirer");
 
 function threeOne () {
     console.log("Question 3.01");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.01,
+            name: "one",
             type: "list",
             message: "You only have three people left in your group and moral is low. How should you bost moral?",
             choices: ['Sing a song', 'Give the speech from Braveheart', 'Do nothing',]
@@ -17,9 +17,9 @@ function threeOne () {
 
 function threeTwo () {
     console.log("Question 3.02");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.02,
+            name: "two",
             type: "list",
             message: "You burned your hand building a fire. What should you do?",
             choices: ['Apply something cold to the burn', 'run around screaming', 'stop, drop, and roll',]
@@ -30,9 +30,9 @@ function threeTwo () {
 
 function threeThree () {
     console.log("Question 3.03");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.03,
+            name: "three",
             type: "list",
             message: "There is a snake in your boot. What should you do?",
             choices: ['Put the boot on', 'Throw the boot away', 'Yell, "There is a snake in my boot!"',]
@@ -43,9 +43,9 @@ function threeThree () {
 
 function threeFour () {
     console.log("Question 3.04");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.04,
+            name: "four",
             type: "list",
             message: "You meet a traveler on the road who wants to trade for some of your food. What should ask from him? ",
             choices: ['His lunchable', 'His whiskey', 'A story for bedtime',]
@@ -56,9 +56,9 @@ function threeFour () {
 
 function threeFive () {
     console.log("Question 3.05");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.05,
+            name: "five",
             type: "list",
             message: "The traveler is starting to act funny. You realize he is turning into a zombie. What should you do?",
             choices: ['Kill or be killed', 'Wait to see if he gets better', 'Run away',]
@@ -69,9 +69,9 @@ function threeFive () {
 
 function threeSix () {
     console.log("Question 3.06");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.06,
+            name: "six",
             type: "list",
             message: "You are very tired from traveling. What should you do?",
             choices: ['Stop right away and rest', 'Keep going, you can rest when you are dead', 'Rest at the next safe spot',]
@@ -82,9 +82,9 @@ function threeSix () {
 
 function threeSeven () {
     console.log("Question 3.07");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.07,
+            name: "seven",
             type: "list",
             message: "You come to a fesh spring. What should you do?",
             choices: ['Fill your water jugs', 'Brush your teeth', 'Wait till the next one to do anything',]
@@ -95,9 +95,9 @@ function threeSeven () {
 
 function threeEight () {
     console.log("Question 3.08");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.08,
+            name: "eight",
             type: "list",
             message: "You find a stray dog. What should you do?",
             choices: ['Ignore it', 'Keep it as a pet', 'Eat it',]
@@ -108,9 +108,9 @@ function threeEight () {
 
 function threeNine () {
     console.log("Question 3.09");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.09,
+            name: "nine",
             type: "list",
             message: "You have an upset stomach. Which of these roots will help settle stomach?",
             choices: ['Ginger', 'Fennel', 'Beet',]
@@ -121,9 +121,9 @@ function threeNine () {
 
 function threeTen () {
     console.log("Question 3.10");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.10,
+            name: "ten",
             type: "list",
             message: "The sun is starting to burn you. What tree exudes a white powder that can be used as sunscreen?",
             choices: ['Cedar', 'Aspen', 'Oak',]
@@ -134,9 +134,9 @@ function threeTen () {
 
 function threeEleven () {
     console.log("Question 3.11");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.11,
+            name: "eleven",
             type: "list",
             message: "You got stung by a bee. What is a natural way to help the bee sting?",
             choices: ['Your spit', 'Honey', 'Dirt',]
@@ -147,9 +147,9 @@ function threeEleven () {
 
 function threeTwelve () {
     console.log("Question 3.12");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.12,
+            name: "twelve",
             type: "list",
             message: "You notice you have a tick in your arm. How should you remove it?",
             choices: ['Pull it out by the tail', 'Pull it out by the head', 'Let it fall out on its own',]
@@ -160,9 +160,9 @@ function threeTwelve () {
 
 function threeThirteen () {
     console.log("Question 3.13");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.13,
+            name: "thirteen",
             type: "list",
             message: "You have not been paying attention to how much food people have been eating and now you are low. What should you do?",
             choices: ['Keep a log of food', 'Make a ration chart', 'Just keep on keeping on',]
@@ -173,9 +173,9 @@ function threeThirteen () {
 
 function threeFourteen () {
     console.log("Question 3.14");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 3.14,
+            name: "fourteen",
             type: "list",
             message: "You are noticing a plumb tree. What should you do?",
             choices: ['Can plumbs for later', 'Eat a bunch right now', 'Ignore it',]

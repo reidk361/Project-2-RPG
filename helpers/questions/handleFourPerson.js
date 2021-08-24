@@ -4,9 +4,9 @@ const inquirer = require("inquirer");
 
 function fourOne () {
     console.log("Question 4.01");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.01,
+            name: "one",
             type: "list",
             message: "You want to make a blade for survival and to look super cool. Which of the following is an essential tool to make a blade?",
             choices: ['Rocks', 'Branches', 'Fire',]
@@ -17,9 +17,9 @@ function fourOne () {
 
 function fourTwo () {
     console.log("Question 4.02");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.02,
+            name: "two",
             type: "list",
             message: "You'll need to attach your emergency blade to some kind of handle. Which of these makes the best emergency rope?",
             choices: ['A vine', 'Tree bark', 'Your extra rope you take with you everywhere',]
@@ -30,9 +30,9 @@ function fourTwo () {
 
 function fourThree () {
     console.log("Question 4.03");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.03,
+            name: "three",
             type: "list",
             message: "It is another cold night. To avoid hypothermia, which of the following is a great way to generate heat?",
             choices: ['Drink sweet liquids', 'Wear tight clothes', 'Run a few miles',]
@@ -43,9 +43,9 @@ function fourThree () {
 
 function fourFour () {
     console.log("Question 4.04");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.04,
+            name: "four",
             type: "list",
             message: "You stepped in a puddle and now your feet are wet. If your feet stay wet for a prolonged period, you can develop immersion foot or:",
             choices: ['Athlete’s foot', 'Trench foot', 'Diabetic foot',]
@@ -56,9 +56,9 @@ function fourFour () {
 
 function fourFive () {
     console.log("Question 4.05");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.05,
+            name: "five",
             type: "list",
             message: "You are turned around once again. What everyday object is used to signal for help in emergency situations?",
             choices: ['Toothbrush', 'Belt', 'Mirror',]
@@ -69,9 +69,9 @@ function fourFive () {
 
 function fourSix () {
     console.log("Question 4.06");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.06,
+            name: "six",
             type: "list",
             message: "You are starting to hear voices again. What should you do?",
             choices: ['Do whatever they tell you', 'Tell someone you are not well', 'Ignore the voices',]
@@ -82,9 +82,9 @@ function fourSix () {
 
 function fourSeven () {
     console.log("Question 4.07");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.07,
+            name: "seven",
             type: "list",
             message: "You need to make a fire but it is raining. Where can you find dry tinder?",
             choices: ['Under moss', 'Under leaves', 'On top of rocks',]
@@ -95,9 +95,9 @@ function fourSeven () {
 
 function fourEight () {
     console.log("Question 4.08");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.08,
+            name: "eight",
             type: "list",
             message: "As you set up camp for the night you spot a cougar. If it attacks you what should you do?",
             choices: ['Play dead', 'Scream', 'Fight back',]
@@ -108,9 +108,9 @@ function fourEight () {
 
 function fourNine () {
     console.log("Question 4.09");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.09,
+            name: "nine",
             type: "list",
             message: "You cut your hand whittling. What percent of blood loss will likely cause death?",
             choices: ['40%', '2%', '25%',]
@@ -121,9 +121,9 @@ function fourNine () {
 
 function fourTen () {
     console.log("Question 4.10");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.10,
+            name: "ten",
             type: "list",
             message: "You decide to go hunting. Do you tell your family your plan?",
             choices: ['Yes', 'No', 'Maybe so',]
@@ -134,9 +134,9 @@ function fourTen () {
 
 function fourEleven () {
     console.log("Question 4.11");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.11,
+            name: "eleven",
             type: "list",
             message: "While hunting you spot a buck, you scare it off. What should you do next?",
             choices: ['Give chase', 'Watch and see where it goes', 'Start shooting as fast as you can at it',]
@@ -147,9 +147,9 @@ function fourEleven () {
 
 function fourTwelve () {
     console.log("Question 4.12");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.12,
+            name: "twelve",
             type: "list",
             message: "You have lost your direction while hunting. How should you try to find your sense of direction?",
             choices: ['Move quickly it any direction', 'Look around for something familiar', 'Curl up in a ball and rock back and forth',]
@@ -160,9 +160,9 @@ function fourTwelve () {
 
 function fourThirteen () {
     console.log("Question 4.13");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.13,
+            name: "thirteen",
             type: "list",
             message: "You spot another deer in the distance, but it is getting late. What should you do?",
             choices: ['Return to your family and try again another day', 'Keep hunting', 'Start shooting at the far away deer',]
@@ -173,12 +173,12 @@ function fourThirteen () {
 
 function fourFourteen () {
     console.log("Question 4.14");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.14,
+            name: "fourteen",
             type: "list",
             message: "You are a bad hunter and came back with nothing. How do you keep the morale up?",
-            choices: ['Tell a funny story', 'Tell your family you miss 100% of the shots you don’t take', 'Remind everyone that tomorrow is a new day',]
+            choices: ['Tell a funny story', 'Tell your family you miss 100% of the shots you don’t take', 'c',]
         },
     ])
 }
@@ -186,9 +186,9 @@ function fourFourteen () {
 
 function fourFifteen () {
     console.log("Question 4.15");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.15,
+            name: "fifteen",
             type: "list",
             message: "While on your journey a family member breaks their leg and can no longer walk. What should you do?",
             choices: ['Leave them behind', 'Rest and create a plan', 'Tell them what doesn’t kill them will make them stronger',]
@@ -199,9 +199,9 @@ function fourFifteen () {
 
 function fourSixteen () {
     console.log("Question 4.16");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.16,
+            name: "sixteen",
             type: "list",
             message: "There is a town nearby and you can rest and resupply. What should you do first?",
             choices: ['Find a hotel', 'Get a haircut', 'Get hammered drunk',]
@@ -212,9 +212,9 @@ function fourSixteen () {
 
 function fourSeventeen () {
     console.log("Question 4.17");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.17,
+            name: "seventeen",
             type: "list",
             message: "Now that you are in a town again you think Oregon sounds overrated and overrun by hipsters. Do you keep heading to Oregon?",
             choices: ['Yes, it is the only place that I will be happy', 'No, Washington sounds better', 'Undecided, lets see how I feel tomorrow',]
@@ -225,9 +225,9 @@ function fourSeventeen () {
 
 function fourEighteen () {
     console.log("Question 4.18");
-    inquirer.prompt([
+    return inquirer.prompt([
         {
-            name: 4.18,
+            name: "eighteen",
             type: "list",
             message: "While in town you are challenged to a gentleman’s duel for insulting the barkeep's mother. What should you do?",
             choices: ['Meet for the duel and show the whole town you are not scared', 'Get your family and run for Oregon', 'Insult more people’s mothers so you can have multiple duels',]

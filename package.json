@@ -2,10 +2,10 @@
   "name": "project-2-rpg",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node "
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/reidk361/Project-2-RPG#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "connect-session-sequelize": "^7.1.1",
     "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
@@ -26,6 +27,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
     "express-session": "^1.17.2",
+    "figlet": "^1.5.2",
     "inquirer": "^8.1.2",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
