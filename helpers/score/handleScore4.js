@@ -25,7 +25,6 @@ let score = 80;
 
 async function handleScore1() {
   let fourOneAns = await fourOne();
-  console.info(fourOneAns);
   if (fourOneAns.one === "Rocks") {
     score = score;
   } else if (fourOneAns.one === "Fire") {

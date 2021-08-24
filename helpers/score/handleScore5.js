@@ -29,7 +29,6 @@ let score = 100;
 
 async function handleScore1() {
   let fiveOneAns = await fiveOne();
-  console.info(fiveOneAns);
   if (fiveOneAns.one === "May") {
     score = score;
   } else if (fiveOneAns.one === "July") {
